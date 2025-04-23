@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="languagePreference"
+        android:title="@string/language"
+        android:summary="@string/select_language"
+        android:defaultValue="en"
+        android:entries="@array/language_options"
+        android:entryValues="@array/language_values" />
+
+    <!-- Sign-out Button -->
+    <Preference
+        android:key="signOutButton"
+        android:title="@string/SignOut"
+        android:summary="@string/Logoutofyouraccount"
+        android:layout_height="wrap_content" />
+
+    <PreferenceCategory android:title="General" />
+
+    <Preference
+        android:key="app_version"
+        android:title="Version"
+        android:summary="Loading..."
+        android:selectable="false" />
+
+</PreferenceScreen>
+
+
+
+

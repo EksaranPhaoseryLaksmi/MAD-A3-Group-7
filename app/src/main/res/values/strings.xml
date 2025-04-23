@@ -1,0 +1,38 @@
+<resources>
+    <string-array name="categories_en">
+        <item>Food</item>
+        <item>Entertainment</item>
+        <item>Travel</item>
+        <item>Shopping</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="categories_km">
+        <item>Food</item>
+        <item>Entertainment</item>
+        <item>Travel</item>
+        <item>Shopping</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="app_name">Fashion Store</string>
+    <string name="amount">Amount</string>
+    <string name="currency">Currency</string>
+    <string name="category">Category:</string>
+    <string name="remark">Remark</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="add_success">Expense added successfully!</string>
+    <string name="usd">USD</string>
+    <string name="khr">KHR</string>
+    <string name="food">Food</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="travel">Travel</string>
+    <string name="shopping">Shopping</string>
+    <string name="other">Other</string>
+    <string name="add">+</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select your language</string>
+    <string name="SignOut">Sign Out</string>
+    <string name="Logoutofyouraccount">Log out of your account</string>
+</resources>

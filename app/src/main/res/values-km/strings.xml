@@ -1,0 +1,31 @@
+<resources>
+    <string-array name="categories_km">
+        <item>អាហារ</item>
+        <item>ការកម្សាន្ត</item>
+        <item>ការធ្វើដំណើរ</item>
+        <item>ការដើរទិញឥវ៉ាន់</item>
+        <item>ផ្សេងៗ</item>
+    </string-array>
+
+    <string name="app_name">កម្មវិធីតាមដានការចំណាយ</string>
+    <string name="amount">ចំនួន</string>
+    <string name="currency">រូបិយវត្ថុ</string>
+    <string name="category">ប្រភេទ:</string>
+    <string name="remark">កំណត់សម្គាល់</string>
+    <string name="add_expense">បន្ថែមការចំណាយ</string>
+    <string name="add_success">ចំណាយបានបន្ថែមដោយជោគជ័យ!</string>
+    <string name="usd">ដុល្លារ</string>
+    <string name="khr">រៀល</string>
+    <string name="food">អាហារ</string>
+    <string name="entertainment">ការកម្សាន្ត</string>
+    <string name="travel">ការធ្វើដំណើរ</string>
+    <string name="shopping">ការដើរទិញឥវ៉ាន់</string>
+    <string name="other">ផ្សេងៗ</string>
+    <string name="add">+</string>
+    <string name="settings">ការកំណត់</string>
+    <string name="language">ភាសា</string>
+    <string name="select_language">ជ្រើសរើសភាសារបស់អ្នក</string>
+    <string name="SignOut">ចាកចេញ</string>
+    <string name="Logoutofyouraccount">ចាកចេញពីគណនីរបស់អ្នក</string>
+
+</resources>

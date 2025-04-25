@@ -79,7 +79,7 @@ public class ProductFragment extends Fragment {
     private void fetchProducts() {
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.18.7:5000/fashion/") // Replace with actual base URL
+                .baseUrl("https://fashionstorebackend-5.onrender.com/fashion/") // Replace with actual base URL
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

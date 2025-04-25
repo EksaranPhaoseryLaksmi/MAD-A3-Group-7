@@ -101,7 +101,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
                 OrderRequest orderRequest = new OrderRequest(customerId, product.getProductID(), quantity, address, phone, note,product.getPrice());
 
                 Retrofit retrofit = new Retrofit.Builder()
-                        .baseUrl("http://192.168.18.7:5000/fashion/") // Replace as needed
+                        .baseUrl("https://fashionstorebackend-5.onrender.com/fashion/")// Replace as needed
                         .addConverterFactory(GsonConverterFactory.create())
                         .build();
 

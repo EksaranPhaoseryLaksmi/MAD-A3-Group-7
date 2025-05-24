@@ -4,5 +4,5 @@
         android:id="@+id/recyclerViewBrand"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    <!-- Test Connection3 -->
+    <!-- Test Connection Sovannrith Ouk -->
 </RelativeLayout>

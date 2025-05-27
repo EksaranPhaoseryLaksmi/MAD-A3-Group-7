@@ -27,16 +27,16 @@ public class SettingsFragment extends PreferenceFragmentCompat {
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.preferences, rootKey);
 
-        ListPreference languagePref = findPreference("languagePreference");
-        if (languagePref != null) {
-            languagePref.setOnPreferenceChangeListener((preference, newValue) -> {
-                LocaleHelper.persist(requireContext(), newValue.toString());
+        //ListPreference languagePref = findPreference("languagePreference");
+       // if (languagePref != null) {
+        //    languagePref.setOnPreferenceChangeListener((preference, newValue) -> {
+          //      LocaleHelper.persist(requireContext(), newValue.toString());
 
                 // Recreate the activity to apply language immediately
-                requireActivity().recreate();
-                return true;
-            });
-        }
+            //    requireActivity().recreate();
+              //  return true;
+            //});
+        //}
         // Get the sign-out preference button
         Preference signOutButton = findPreference("signOutButton");
 

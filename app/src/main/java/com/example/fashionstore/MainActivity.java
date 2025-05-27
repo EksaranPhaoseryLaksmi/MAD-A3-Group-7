@@ -13,7 +13,7 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
 
         View rootView = findViewById(android.R.id.content); // Root view of the activity
-        rootView.setBackgroundResource(R.drawable.fashionstore2); // Replace with your background image resource
+        rootView.setBackgroundResource(R.drawable.fashionstore1); // Replace with your background image resource
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 

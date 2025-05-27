@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <!-- Language Button
     <ListPreference
         android:key="languagePreference"
         android:title="@string/language"
@@ -8,7 +8,7 @@
         android:defaultValue="en"
         android:entries="@array/language_options"
         android:entryValues="@array/language_values" />
-
+    -->
     <!-- Sign-out Button -->
     <Preference
         android:key="signOutButton"

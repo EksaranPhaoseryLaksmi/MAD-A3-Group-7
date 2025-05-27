@@ -15,6 +15,7 @@ buildscript {
         classpath("com.android.tools.build:gradle:$gradle_version")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
         classpath ("com.google.gms:google-services:4.3.15")  // Check for the latest version
+        classpath ("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
     }
 }
 

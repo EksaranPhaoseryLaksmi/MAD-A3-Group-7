@@ -14,7 +14,8 @@
         android:key="signOutButton"
         android:title="@string/SignOut"
         android:summary="@string/Logoutofyouraccount"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        />
 
     <PreferenceCategory android:title="General" />
 

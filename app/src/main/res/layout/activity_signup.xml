@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter Email"
         android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
         android:backgroundTint="@android:color/white" />
 
     <EditText
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter Password"
         android:inputType="textPassword"
+        android:textColor="#FFFFFF"
         android:backgroundTint="@android:color/white" />
 
     <Button

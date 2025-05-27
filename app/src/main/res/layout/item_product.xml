@@ -30,6 +30,7 @@
             android:text="Product Name"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="#0000FF"
             android:layout_marginTop="8dp" />
 
         <TextView
@@ -37,6 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Product description here"
+            android:textColor="#FFFFFF"
             android:textSize="14sp"/>
 
         <TextView

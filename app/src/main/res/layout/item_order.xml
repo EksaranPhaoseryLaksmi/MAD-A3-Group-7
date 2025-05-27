@@ -27,6 +27,7 @@
             android:layout_height="wrap_content"
             android:text="Product Name"
             android:textSize="18sp"
+            android:textColor="#0000FF"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -40,6 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Qty"
+                android:textColor="#00FF00"
                 android:textSize="16sp" />
 
             <TextView
@@ -48,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:text="   Total"
                 android:textSize="16sp"
+                android:textColor="#FF5722"
                 android:layout_marginStart="16dp" />
         </LinearLayout>
 
@@ -62,6 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
+                android:textColor="#FFFFFF"
                 android:textSize="16sp" />
 
             <TextView
@@ -69,6 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
+                android:textColor="#FFFFFF"
                 android:textSize="16sp"
                 android:layout_marginStart="16dp" />
         </LinearLayout>
@@ -79,6 +84,7 @@
             android:layout_height="wrap_content"
             android:text="Date"
             android:textSize="16sp"
+            android:textColor="#FFFFFF"
             android:layout_marginTop="4dp" />
 
         <Button

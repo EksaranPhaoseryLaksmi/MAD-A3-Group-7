@@ -11,15 +11,13 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
-        <!-- App Logo -->
         <ImageView
             android:id="@+id/logo"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/fashionstore"
-        android:layout_marginTop="16dp" />
+            android:layout_marginTop="16dp" />
 
-        <!-- App Name -->
         <TextView
             android:id="@+id/app_name"
             android:layout_width="wrap_content"
@@ -30,7 +28,6 @@
             android:textColor="#FFFFFF"
             android:layout_marginTop="8dp" />
 
-        <!-- Shop Description -->
         <TextView
             android:id="@+id/description"
             android:layout_width="match_parent"
@@ -42,16 +39,14 @@
             android:layout_marginTop="12dp"
             android:padding="8dp" />
 
-        <!-- Banner or Product Image -->
         <ImageView
             android:id="@+id/banner"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:src="@drawable/fashionstore3"
-        android:scaleType="centerCrop"
-        android:layout_marginTop="16dp" />
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16dp" />
 
-        <!-- Address -->
         <TextView
             android:id="@+id/address"
             android:layout_width="match_parent"
@@ -61,7 +56,6 @@
             android:textSize="14sp"
             android:layout_marginTop="16dp" />
 
-        <!-- Contact Info -->
         <TextView
             android:id="@+id/contact_label"
             android:layout_width="match_parent"
@@ -105,5 +99,11 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/buttonNavigateToPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Payment"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp" /> </LinearLayout>
 </ScrollView>

@@ -6,4 +6,6 @@
     </style>
 
     <style name="Theme.ExpenseTracker" parent="Base.Theme.ExpenseTracker" />
+
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

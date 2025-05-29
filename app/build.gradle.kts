@@ -1,8 +1,9 @@
+// app/build.gradle.kts
 plugins {
     id ("com.google.gms.google-services")
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.compose) // This applies the plugin
 }
 
 android {
@@ -36,7 +37,11 @@ android {
         jvmTarget = "11"
     }
     buildFeatures {
-        compose = true
+        compose = true // Ensure this is true
+    }
+    // **ADD THIS BLOCK**
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.8" // This version is compatible with Kotlin 1.9.x
     }
 }
 

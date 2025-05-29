@@ -2,10 +2,9 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
-    // **ADD THIS LINE:** Declare the Kotlin Compose plugin here with its version
+    // **ENSURE THIS LINE IS PRESENT**
     id("org.jetbrains.kotlin.plugin.compose") version "1.9.24" apply false
-    // **ADD THIS LINE:** Declare the Google Services plugin if your app module uses it
-    id("com.google.gms.google-services") version "4.3.15" apply false // Use the version you have in your app module or the latest
+    id("com.google.gms.google-services") version "4.3.15" apply false
 }
 
 buildscript {
